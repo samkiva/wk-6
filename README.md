@@ -1,45 +1,14 @@
-# 📝 **Assignment: Joins and Relationships**
+# Week 6 Assignment – Joins and Relationships
 
-## 🎯 **Learning Objectives**
-* ➕ Understand and implement **INNER JOIN**, **LEFT JOIN**, and **RIGHT JOIN** in SQL.
-* 👨‍💻 Retrieve data from multiple related tables using SQL queries.
-* 🔗 Explore relationships between different tables (e.g., employees, products, orders).
-* 💻 Practice real-world SQL scenarios that involve combining tables and retrieving relevant data.
+This repository contains my solutions for Week 6 of the Databases module.  
+The assignment focuses on working with INNER JOIN, LEFT JOIN, and RIGHT JOIN in the `salesdb` database.
 
----
+## Files Included
+- `answers.sql` – Contains all SQL queries for the assignment.
 
-## 📋 **What You'll Need**
-* 💻 A computer with internet access.
-* ✍️ A code editor (e.g., Visual Studio Code).
-* 🖥️ MySQL Workbench or another SQL database environment.
+## Topics Covered
+- Combining related tables using SQL JOINs.
+- Retrieving data from the `employees`, `offices`, `products`, `productlines`, `customers`, and `orders` tables.
+- Applying INNER JOIN, LEFT JOIN, and RIGHT JOIN as instructed.
 
----
-
-## 📝 **Submission Instructions**  
-📂 Write all your SQL queries in the **answers.sql** file.  
-✍️ Answer each question concisely and make sure your queries are clear and correct.  
-🗣️ Structure your responses clearly, and use comments if necessary to explain your approach.
-
----
-
-## 📚 **Assignment Questions**
-
-### **Question 1 🧑‍💼**  
-**Write an SQL query** to get the **firstName**, **lastName**, **email**, and **officeCode** of all employees.  
-Use an **INNER JOIN** to combine the **employees** table with the **offices** table using the **officeCode** column.
-
----
-
-### **Question 2 🛍️**  
-**Write an SQL query** to get the **productName**, **productVendor**, and **productLine** from the **products** table.  
-Use a **LEFT JOIN** to combine the **products** table with the **productlines** table using the **productLine** column.
-
----
-
-### **Question 3 📦**  
-**Write an SQL query** to retrieve the **orderDate**, **shippedDate**, **status**, and **customerNumber** for the first 10 orders.  
-Use a **RIGHT JOIN** to combine the **customers** table with the **orders** table using the **customerNumber** column.
-
----
-
-Good luck 🚀
+All work has been completed using MySQL Workbench and the existing `salesdb` database provided in Week 2.
